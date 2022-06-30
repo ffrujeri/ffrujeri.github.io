@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Felipe Vieira Frujeri"
+  name             : "Applied Scientist"
   avatar           : "profile.png"
-  bio              : "Applied Scientist at Microsoft Research and Cognitive Services"
+  bio              : "Microsoft Research and Cognitive Services"
   location         : "Location"
   employer         :
 #   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
