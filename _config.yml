@@ -83,7 +83,7 @@ author:
   name             : "Applied Scientist"
   avatar           : "citations.jfif"
   bio              : "Microsoft Research and Cognitive Services"
-  location         : "Location"
+  # location         : "Location"
   employer         :
 #   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=wy0FA1cAAAAJ&hl=en"
