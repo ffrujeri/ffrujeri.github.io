@@ -18,3 +18,4 @@ In the Embodied Intelligence pillar, the focus is on Offline pretraining (throug
 Previously, I was a Research Software Engineer in the Cloud Efficiency group, where I focused on Resource Central (ML prediction-serving System for Azure).
 
 I received my Master’s Degree in Image, Vision and Machine Learning in a double degree program between ITA (Brazil) and École Polytechnique (France).
+I also studied three years of MedSchool in the University of Brasília (Brazil), when I started to get fascinated by the Brain, Human Intelligence and Cognitive Sciences, from where I try to get inspiration for modeling AI agents. 
