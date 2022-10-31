@@ -7,9 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am currently an Applied Scientist in the Cognitive Services team (Decision AI) where I support the Azure Personalizer Service (contextual bandits for Personalization / Recommendations) and my main Research agenda in collaboration with Microsoft Research is around Foundation models for Embodied AI / Robot Learning.
+I work currently as an Applied Scientist in the Cognitive Services team (Decision AI) where I support the Azure Personalizer Service (contextual bandits for Personalization / Recommendations). 
 
-I am generally interested in real-world optimal control applications spanning from robotics / autonomous systems to data center energy optimization. In particular, I am focusing on Offline pretraining (through Offline RL or other methods) and downstream finetuning, involving Skill learning and descovering.
+My main Research agenda in collaboration with Microsoft Research is focused on pretraining of Foundation models for deicion making and Embodied AI / Robot Learning.
+
+While I find a path towards funding for my AGI Research, I try to create profitable solutions in real-world optimal control applications spanning from robotics / autonomous systems to data center energy optimization. In particular, I am focusing on the online adaptation of Large Language Models with human inductive bias in the loop (AI alignment).
+
+In the Embodied Intelligence pillar, the focus is on Offline pretraining (through Offline RL, Meta-RL and other interactive representation learning methods) and downstream finetuning, involving Skill learning and descovering.
 
 Previously, I was a Research Software Engineer in the Cloud Efficiency group, where I focused on Resource Central (ML prediction-serving System for Azure).
 
