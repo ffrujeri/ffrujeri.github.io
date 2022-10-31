@@ -9,7 +9,7 @@ redirect_from:
 
 I work currently as an Applied Scientist in the Cognitive Services team (Decision AI) where I support the Azure Personalizer Service (contextual bandits for Personalization / Recommendations). 
 
-My main Research agenda in collaboration with Microsoft Research is focused on pretraining of Foundation models for deicion making and Embodied AI / Robot Learning.
+My main Research agenda in collaboration with Microsoft Research is focused on pretraining of Foundation models for decision making and Embodied AI / Robot Learning.
 
 While I find a path towards funding for my AGI Research, I try to create profitable solutions in real-world optimal control applications spanning from robotics / autonomous systems to data center energy optimization. In particular, I am focusing on the online adaptation of Large Language Models with human inductive bias in the loop (AI alignment).
 
