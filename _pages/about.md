@@ -13,7 +13,7 @@ My main Research agenda in collaboration with Microsoft Research is focused on p
 
 While I find a path towards funding for my AGI Research, I try to create profitable solutions in real-world optimal control applications spanning from robotics / autonomous systems to data center energy optimization. In particular, I am focusing on the online adaptation of Large Language Models with human inductive bias in the loop (AI alignment).
 
-In the Embodied Intelligence pillar, the focus is on Offline pretraining (through Offline RL, Meta-RL and other interactive representation learning methods) and downstream finetuning, involving Skill learning and descovering.
+In the Embodied Intelligence pillar, the focus is on Offline pretraining (through Offline RL, Meta-RL and other interactive representation learning methods) and downstream finetuning, involving Skill learning and discovering.
 
 Previously, I was a Research Software Engineer in the Cloud Efficiency group, where I focused on Resource Central (ML prediction-serving System for Azure).
 
