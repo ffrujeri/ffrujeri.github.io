@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I work currently as an Applied Research Scientist in the Decision AI pillar for Azure Cognitive Services. I support Research in AI Alignment / RLHF RReinforcement Learning from Human Feedback) and the Azure Personalizer Service (contextual bandits for Personalization / Recommendations). 
+I work currently as an Applied Research Scientist in the Decision AI pillar for Azure Cognitive Services. I support Research in AI Alignment / RLHF (Reinforcement Learning from Human Feedback) and the Azure Personalizer Service (contextual bandits for Personalization / Recommendations). 
 
 My main Research agenda in collaboration with Microsoft Research is focused on pretraining of Foundation models for decision making and Embodied AI / Robot Learning.
 
