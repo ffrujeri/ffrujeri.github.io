@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Applied Scientist"
+  name             : "Research Scientist"
   avatar           : "citations.jfif"
-  bio              : "Microsoft Research and Cognitive Services"
+  bio              : "Cognitive Services Research and Microsoft Research"
   # location         : "Location"
   employer         :
 #   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
