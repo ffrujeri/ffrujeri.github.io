@@ -7,13 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I work currently as an Applied Research Scientist in the Decision AI pillar for Azure Cognitive Services. I support Research in AI Alignment / RLHF (Reinforcement Learning from Human Feedback) and the Azure Personalizer Service (contextual bandits for Personalization / Recommendations). 
+I am a Research Scientist in the Azure Cognitive Services Research team. I support Research in AI Alignment / RLHF (Reinforcement Learning from Human Feedback) and previously the Azure Personalizer Service (contextual bandits for Personalization / Recommendations). 
 
-My main Research agenda in collaboration with Microsoft Research is focused on pretraining of Foundation models for decision making and Embodied AI / Robot Learning.
+My main Research agenda in collaboration with MSR has been on pretraining of Foundation models for AGI with focus on decision making and Embodied AI / Robot Learning.
 
-While I find a path towards funding for my AGI Research, I try to create profitable solutions in real-world optimal control applications spanning from robotics / autonomous systems to data center energy optimization. In particular, I am focusing on the adaptation / finetuning of Large Language Models with human inductive bias in the loop (AI alignment).
+While I find a path towards funding for my AGI Research, I try to create profitable solutions in real-world optimal control applications spanning from autonomous systems to data center energy optimization. In particular, I am focusing on the adaptation / finetuning of Large Language Models with human inductive bias in the loop (AI alignment).
 
-In the Embodied Intelligence pillar, the focus is on Offline pretraining (through Offline RL, Meta-RL and other interactive representation learning methods) and downstream finetuning, involving Skill learning and discovering.
+In the Embodied Intelligence pillar, the focus is on Offline pretraining (through Offline RL, Meta-RL and other interactive representation learning methods) and downstream finetuning, involving Skill learning and discovering for fast online adaptation.
 
 Previously, I was a Research Software Engineer in the Cloud Efficiency group, where I focused on Resource Central (ML prediction-serving System for Azure).
 
