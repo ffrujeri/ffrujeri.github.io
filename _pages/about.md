@@ -19,4 +19,4 @@ Previously, I was a Research Engineer in the Cloud Efficiency group, where contr
 
 I received my Master’s Degree in Image, Vision and Machine Learning in a double degree program between ITA (Brazil) and École Polytechnique (France).
 
-I also studied three years of MedSchool in the University of Brasília (Brazil), when I spent some time studing the Brain, Human Intelligence and Cognitive Sciences, from where I try to get inspiration and inductive biases for modeling AI agents. 
+I also studied three years of MedSchool in the University of Brasília (Brazil), when I spent some time studying the Brain, Human Intelligence and Cognitive Sciences, from where I try to get inspiration and inductive biases for modeling AI agents. 
