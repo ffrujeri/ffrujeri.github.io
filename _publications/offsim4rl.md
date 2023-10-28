@@ -12,4 +12,3 @@ Modern decision-making systems, from robots to web recommendation engines, are e
 [Website](https://github.com/microsoft/rl-offline-simulation)
 
 [Paper](https://arxiv.org/abs/2211.07614)
-
