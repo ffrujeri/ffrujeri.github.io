@@ -2,7 +2,7 @@
 title: "HoloAssist: An Egocentric Human Interaction Dataset for Interactive AI Assistants in the Real World"
 collection: publications
 permalink: /publication/holoassist
-excerpt: "<img src='https://btekin.github.io/holoassist.png' width='160' align='center'><br/>HoloAssist is a large-scale egocentric human interaction dataset, where two people collaboratively complete physical manipulation tasks. By augmenting the data with action and conversational annotations and observing the rich behaviors of various participants, we present key insights into how human assistants correct mistakes, intervene in the task completion procedure, and ground their instructions to the environment."
+excerpt: "<img src='https://btekin.github.io/holoassist.png' width='320' style='display:block; margin:auto;'><br/>HoloAssist is a large-scale egocentric human interaction dataset, where two people collaboratively complete physical manipulation tasks. By augmenting the data with action and conversational annotations and observing the rich behaviors of various participants, we present key insights into how human assistants correct mistakes, intervene in the task completion procedure, and ground their instructions to the environment."
 date: 2023-09-25
 venue: 'International Conference on Computer Vision (ICCV)'
 citation: Xin Wang*, Taein Kwon*, Mahdi Rad, Bowen Pan, Ishani Chakraborty, Sean Andrist, Dan Bohus, Ashley Fanello, Bugra Tekin, Felipe Vieira Frujeri, Neel Joshi, Marc Pollefeys
