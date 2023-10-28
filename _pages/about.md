@@ -36,6 +36,11 @@ Experience
 
 : I was a Research Engineer in the Cloud Efficiency group, where contributed to several “Self-driving datacenter” scenarios on Resource Central (ML prediction-serving System for Azure).
 
+<i class="fas fa-building" aria-hidden="true"></i> Software Engineer (2017-2019)
+: Azure Data AI
+
+: Worked on Automatic Configuration Tuning for PostgreSQL DBMS using Deep Reinforcement Learning and SKU recommendation system (best tier/size configuration) of Azure SQL Database to accommodate on-premises workloads
+
 Education
 ======
 <i class="fas fa-graduation-cap" aria-hidden="true"></i>  MSc in Image, Vision and Machine Learning (2014-2017)
@@ -51,7 +56,7 @@ Education
 <i class="fas fa-graduation-cap" aria-hidden="true"></i> Medical School (2008-2011)
 : University of Brasília (Brazil) 
 
-I also studied three years of MedSchool, when I spent some time studying the Brain, Human Intelligence and Cognitive Sciences, from where I try to get inspiration and inductive biases for modeling AI agents. 
+: I also studied three years of MedSchool, when I spent some time studying the Brain, Human Intelligence and Cognitive Sciences, from where I try to get inspiration and inductive biases for modeling AI agents. 
 
 News and Updates
 ======
