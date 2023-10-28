@@ -9,9 +9,9 @@ redirect_from:
 ---
 I am a Research Scientist with a solid background in Software Engineering and an uncoventional path to Research. More recently, I have been involved with RL for LLMs (RLHF / RLAIF) and AI Alignment as well as the next generation of LLM-based Agents in the OpenAI models team at Azure AI Research.
 
-I received my Master’s Degree in Image, Vision and Machine Learning in a double degree program between ITA(opens in new tab) (Brazil) and École Polytechnique(opens in new tab) (France).
+I received my Master’s Degree in Image, Vision and Machine Learning in a double degree program between [ITA (Brazil)](http://www.ita.br/) and [École Polytechnique (France)](https://www.polytechnique.edu/).
 
-In previous teams at Microsoft, I worked with Knowledge and Language – Cognitive Services Research group. And in Microsoft Research (MSR), as a Research Engineer, working with the Cloud Efficiency group(opens in new tab), where I contributed to several “Self-driving datacenter” scenarios through the Resource Central(opens in new tab) platform (ML prediction-serving System for Azure).
+In previous teams at Microsoft, I worked with Knowledge and Language group and in Microsoft Research (MSR), as a Research Engineer, worked with the [Cloud Efficiency group](https://www.microsoft.com/en-us/research/group/azure-systems-research/), where I contributed to several “Self-driving datacenter” scenarios through the [Resource Central](https://www.microsoft.com/en-us/research/publication/resource-central-understanding-predicting-workloads-improved-resource-management-large-cloud-platforms/) platform (ML prediction-serving System for Azure).
 
 Research
 ======
