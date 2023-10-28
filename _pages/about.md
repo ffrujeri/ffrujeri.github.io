@@ -24,7 +24,7 @@ While I find a path towards funding for my AGI Research, I try to create profita
 
 Background and Experience
 ======
-In Nov-2023, I joined Vatic Labs as an AI Researcher.
+In Nov-2023, I joined Vatic Labs as an AI Researcher on Digital AGI for quantitative finance.
 
 From 2021-2023, I was a  Research Scientist in the Azure AI Research team. I supported Research in AI Alignment with RLHF / RLFAI (Reinforcement Learning from Human or AI Feedback). In 2021, I also supported the Azure Personalizer Service (contextual bandits for Personalization / Recommendations). 
 
