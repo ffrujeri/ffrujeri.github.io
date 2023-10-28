@@ -11,9 +11,7 @@ redirect_from:
 My main Research agenda in that last years has been on **Foundation Models for AGI** (Artificial General Intelligence) with focus on **Autonomy and Agency** and can be summarized in three pillars:
 
 - **Cognitive Architectures (LLM + Prompt-Engine + Memory-Engine)**
-
 - **Digital AGI (Skill Learning / Decision making / Tool Usage)**
-
 - **Embodied Intelligence / Robot Learning**
 
 I received my Master’s Degree in Image, Vision and Machine Learning in a double degree program between ITA (Brazil) and École Polytechnique (France).
