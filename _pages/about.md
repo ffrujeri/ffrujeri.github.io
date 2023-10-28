@@ -18,7 +18,7 @@ My main Research agenda in that last years has been on **Foundation Models for A
 
 While I find a path towards funding for my AGI Research, I try to create profitable solutions in real-world optimal control applications spanning from autonomous systems to data center energy optimization. In particular involved on the adaptation / finetuning of Large Language Models with human inductive bias in the loop (AI alignment).
 
-From 2021-2023, I was a  Research Scientist in the Azure AI Research team. I support Research in AI Alignment with RLHF / RLFAI (Reinforcement Learning from Human or AI Feedback). I also supported the Azure Personalizer Service (contextual bandits for Personalization / Recommendations). 
+From 2021-2023, I was a  Research Scientist in the Azure AI Research team. I supported Research in AI Alignment with RLHF / RLFAI (Reinforcement Learning from Human or AI Feedback). In 2021, I also supported the Azure Personalizer Service (contextual bandits for Personalization / Recommendations). 
 
 In the Embodied Intelligence pillar in collaboration with MSR, the efforts are on trying to design system with reliable Offline pretraining (through Offline RL, Meta-RL and other interactive representation learning methods) and downstream finetuning, involving Skill learning and discovering for fast online adaptation.
 
