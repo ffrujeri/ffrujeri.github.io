@@ -16,22 +16,6 @@ My main Research agenda in that last years has been on **Foundation Models for A
 
 While I find a path towards funding for my AGI Research, I try to create profitable solutions in real-world optimal control applications spanning from autonomous systems to data center energy optimization. In particular involved on the adaptation / finetuning of Large Language Models with human inductive bias in the loop (AI alignment).
 
-Education
-======
-<i class="fas fa-graduation-cap" aria-hidden="true"></i>  MSc in Image, Vision and Machine Learning (2014-2017)
-: École Polytechnique (France)
-
-: **Dissertation:** Using Machine Learning to build P300-based Brain Computer Interfaces for Gaming 
-
-<i class="fas fa-graduation-cap" aria-hidden="true"></i>  BSc Computer Software Engineering (2011-2016)
-: Instituto Tecnológico de Aeronáutica (Brazil)
-
-: **Dissertation:** A Framework for games controlled by the brain through P300 Visual
-
-<i class="fas fa-graduation-cap" aria-hidden="true"></i> MD University of Brasília (2008-2011)
-I also studied three years of MedSchool, when I spent some time studying the Brain, Human Intelligence and Cognitive Sciences, from where I try to get inspiration and inductive biases for modeling AI agents. 
-
-
 Experience
 ======
 <i class="fas fa-building" aria-hidden="true"></i> AI Researcher (2023-Present)
@@ -46,6 +30,20 @@ Experience
 <i class="fas fa-building" aria-hidden="true"></i> Research Engineer (2019-2021)
 :I was a Research Engineer in the Cloud Efficiency group, where contributed to several “Self-driving datacenter” scenarios on Resource Central (ML prediction-serving System for Azure).
 
+Education
+======
+<i class="fas fa-graduation-cap" aria-hidden="true"></i>  MSc in Image, Vision and Machine Learning (2014-2017)
+: École Polytechnique (France)
+
+: **Dissertation:** Using Machine Learning to build P300-based Brain Computer Interfaces for Gaming 
+
+<i class="fas fa-graduation-cap" aria-hidden="true"></i>  BSc Computer Software Engineering (2011-2016)
+: Instituto Tecnológico de Aeronáutica (Brazil)
+
+: **Dissertation:** A Framework for games controlled by the brain through P300 Visual
+
+<i class="fas fa-graduation-cap" aria-hidden="true"></i> MD University of Brasília (2008-2011)
+I also studied three years of MedSchool, when I spent some time studying the Brain, Human Intelligence and Cognitive Sciences, from where I try to get inspiration and inductive biases for modeling AI agents. 
 
 News and Updates
 ======
