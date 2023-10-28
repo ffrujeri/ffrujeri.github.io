@@ -38,4 +38,4 @@ News and Updates
 Research Collaborations
 ======
 
-I am opened to research collaborations in common topics of interest. Feel free to reach out.
+I am open to research collaborations in common topics of interest. Feel free to reach out.
