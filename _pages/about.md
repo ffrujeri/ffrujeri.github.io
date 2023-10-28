@@ -19,16 +19,22 @@ While I find a path towards funding for my AGI Research, I try to create profita
 Experience
 ======
 <i class="fas fa-building" aria-hidden="true"></i> AI Researcher (2023-Present)
-:I decided to join Vatic Labs to focus on AGI for quantitative finance challenges.
+: Vatic Labs
+: I decided to join Vatic Labs to focus on AGI for quantitative finance challenges.
 
 <i class="fas fa-building" aria-hidden="true"></i> Researcher (2021-2023)
-:I was a  Research Scientist in the Azure AI Research team. I supported Research in AI Alignment with RLHF / RLFAI (Reinforcement Learning from Human or AI Feedback). In 2021, I also supported the Azure Personalizer Service (contextual bandits for Personalization / Recommendations). 
+: Azure AI Research
+: I supported Research in AI Alignment with RLHF / RLFAI (Reinforcement Learning from Human or AI Feedback). In 2021, I also supported the Azure Personalizer Service (contextual bandits for Personalization / Recommendations). 
 
 <i class="fas fa-building" aria-hidden="true"></i> Research Engineer / Researcher (2019-2023)
-:I collaborated with other MSR Researchers, focusing on the Embodied Intelligence pillar, trying to design system with reliable Offline pretraining (through Offline RL, Meta-RL and other interactive representation learning methods) and downstream finetuning, involving Skill learning and discovering for fast online adaptation.
+: Microsoft Research
+
+: I collaborated with other MSR Researchers, focusing on the Embodied Intelligence pillar, trying to design system with reliable Offline pretraining (through Offline RL, Meta-RL and other interactive representation learning methods) and downstream finetuning, involving Skill learning and discovering for fast online adaptation.
 
 <i class="fas fa-building" aria-hidden="true"></i> Research Engineer (2019-2021)
-:I was a Research Engineer in the Cloud Efficiency group, where contributed to several “Self-driving datacenter” scenarios on Resource Central (ML prediction-serving System for Azure).
+: Microsoft Research
+
+: I was a Research Engineer in the Cloud Efficiency group, where contributed to several “Self-driving datacenter” scenarios on Resource Central (ML prediction-serving System for Azure).
 
 Education
 ======
@@ -40,9 +46,11 @@ Education
 <i class="fas fa-graduation-cap" aria-hidden="true"></i>  BSc Computer Software Engineering (2011-2016)
 : Instituto Tecnológico de Aeronáutica (Brazil)
 
-: **Dissertation:** A Framework for games controlled by the brain through P300 Visual
+: **Dissertation:** A Framework for games controlled by the brain through P300 Visual Event-Related Potentials
 
-<i class="fas fa-graduation-cap" aria-hidden="true"></i> MD University of Brasília (2008-2011)
+<i class="fas fa-graduation-cap" aria-hidden="true"></i> Medical School (2008-2011)
+: University of Brasília (Brazil) 
+
 I also studied three years of MedSchool, when I spent some time studying the Brain, Human Intelligence and Cognitive Sciences, from where I try to get inspiration and inductive biases for modeling AI agents. 
 
 News and Updates
