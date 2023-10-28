@@ -14,28 +14,43 @@ My main Research agenda in that last years has been on **Foundation Models for A
 - **Digital AGI (Skill Learning / Decision making / Tool Usage)**
 - **Embodied Intelligence / Robot Learning**
 
-I received my Master’s Degree in Image, Vision and Machine Learning in a double degree program between ITA (Brazil) and École Polytechnique (France).
-
-I also studied three years of MedSchool in the University of Brasília (Brazil), when I spent some time studying the Brain, Human Intelligence and Cognitive Sciences, from where I try to get inspiration and inductive biases for modeling AI agents. 
-
 While I find a path towards funding for my AGI Research, I try to create profitable solutions in real-world optimal control applications spanning from autonomous systems to data center energy optimization. In particular involved on the adaptation / finetuning of Large Language Models with human inductive bias in the loop (AI alignment).
 
-Background and Experience
+Education
 ======
-In 2023, I decided to join Vatic Labs as an AI Researcher with focus on quantitative finance.
+<i class="fas fa-graduation-cap" aria-hidden="true"></i>  MSc in Image, Vision and Machine Learning (2014-2017)
+: École Polytechnique (France)
 
-From 2021-2023, I was a  Research Scientist in the Azure AI Research team. I supported Research in AI Alignment with RLHF / RLFAI (Reinforcement Learning from Human or AI Feedback). In 2021, I also supported the Azure Personalizer Service (contextual bandits for Personalization / Recommendations). 
+: **Dissertation:** Using Machine Learning to build P300-based Brain Computer Interfaces for Gaming 
 
-From 2019-2023, I also collaborated with other MSR Researchers, focusing on the Embodied Intelligence pillar, trying to design system with reliable Offline pretraining (through Offline RL, Meta-RL and other interactive representation learning methods) and downstream finetuning, involving Skill learning and discovering for fast online adaptation.
+<i class="fas fa-graduation-cap" aria-hidden="true"></i>  BSc Computer Software Engineering (2011-2016)
+: Instituto Tecnológico de Aeronáutica (Brazil)
 
-From 2019-2021, I was a Research Engineer in the Cloud Efficiency group, where contributed to several “Self-driving datacenter” scenarios on Resource Central (ML prediction-serving System for Azure).
+: **Dissertation:** A Framework for games controlled by the brain through P300 Visual
+
+<i class="fas fa-graduation-cap" aria-hidden="true"></i> MD University of Brasília (2008-2011)
+I also studied three years of MedSchool, when I spent some time studying the Brain, Human Intelligence and Cognitive Sciences, from where I try to get inspiration and inductive biases for modeling AI agents. 
+
+
+Experience
+======
+<i class="fas fa-building" aria-hidden="true"></i> AI Researcher (2023-Present)
+:I decided to join Vatic Labs to focus on AGI for quantitative finance challenges.
+
+<i class="fas fa-building" aria-hidden="true"></i> Researcher (2021-2023)
+:I was a  Research Scientist in the Azure AI Research team. I supported Research in AI Alignment with RLHF / RLFAI (Reinforcement Learning from Human or AI Feedback). In 2021, I also supported the Azure Personalizer Service (contextual bandits for Personalization / Recommendations). 
+
+<i class="fas fa-building" aria-hidden="true"></i> Research Engineer / Researcher (2019-2023)
+:I collaborated with other MSR Researchers, focusing on the Embodied Intelligence pillar, trying to design system with reliable Offline pretraining (through Offline RL, Meta-RL and other interactive representation learning methods) and downstream finetuning, involving Skill learning and discovering for fast online adaptation.
+
+<i class="fas fa-building" aria-hidden="true"></i> Research Engineer (2019-2021)
+:I was a Research Engineer in the Cloud Efficiency group, where contributed to several “Self-driving datacenter” scenarios on Resource Central (ML prediction-serving System for Azure).
 
 
 News and Updates
 ======
 - 2023.10: I will be in [ICCV](https://iccv2023.thecvf.com/) presenting [HoloAssist](https://holoassist.github.io/). Stop by to chat!
 
-Research Collaborations
+Contact
 ======
-
 I am open to research collaborations in common topics of interest. Feel free to reach out.
