@@ -40,6 +40,13 @@
 
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% if post.citation and post.paperurl %}
+            <p>{{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
+          {% elsif post.citation %}
+            <p>{{ post.citation }} </p>
+          {% elsif post.paperurl %}
+            <p>Paper <a href=" {{ post.paperurl }} "><u></u></a></p>
+          {% endif %}
         {% elsif post.collection == 'publications' %}
           <p><b>in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </b></p>
         {% elsif post.date %}
@@ -51,14 +58,5 @@
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
-    
-    {% if post.citation and post.paperurl %}
-      <p>{{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-    {% elsif post.citation %}
-      <p>{{ post.citation }} </p>
-    {% elsif post.paperurl %}
-      <p>Paper <a href=" {{ post.paperurl }} "><u></u></a></p>
-    {% endif %}
-
   </article>
 </div>
