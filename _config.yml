@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Research Scientist"
   avatar           : "citations.jfif"
-  bio              : "<div style='text-align:center;'>Vatic Labs<br/>Microsoft Research (prev)<br/>École Polytechnique<br/>ITA</div>"
+  bio              : "Vatic Labs<br/>Microsoft Research<br/>École Polytechnique<br/>ITA"
   # location         : "Location"
   employer         :
 #   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
