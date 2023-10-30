@@ -12,7 +12,7 @@ Papers
 ======
 [Large Language Models Are Zero-Shot Time Series Forecasters](https://arxiv.org/abs/2310.07820?ref=distilleddaily.news)
 [Code](https://github.com/ngruver/llmtime)
-<img src='https://github.com/ngruver/llmtime/blob/main/assets/llmtime_top_fig.png' style='display:block; margin:auto;'>
+<img src='/images/llmtime_top_fig.png' style='display:block; margin:auto;'>
 
 - How to effectively tokenize time series data
-- Convert discrete distributions over tokens into highly flexible densities
+- Convert discrete distributions over tokens into highly flexible densities over continuous values
