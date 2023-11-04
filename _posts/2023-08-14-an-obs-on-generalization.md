@@ -9,4 +9,4 @@ tags:
   - compression
 ---
 
-[Video]https://www.youtube.com/watch?v=AKMuA_TVz3A)
+[Video](https://www.youtube.com/watch?v=AKMuA_TVz3A)
