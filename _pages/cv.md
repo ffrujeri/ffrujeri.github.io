@@ -10,18 +10,21 @@ redirect_from:
 
 Experience
 ======
-<i class="fas fa-building" aria-hidden="true"></i> AI Researcher (2023-Present)
+<i class="fas fa-building" aria-hidden="true"></i> Research Scientist (2023-Present)
 : Vatic Labs
-: I decided to join Vatic Labs to focus on AGI for quantitative finance challenges.
 
-<i class="fas fa-building" aria-hidden="true"></i> Researcher (2021-2023)
+: I decided to join Vatic Labs to focus on AGI frontiers for quantitative finance challenges.
+
+<i class="fas fa-building" aria-hidden="true"></i> Research Scientist (2021-2023)
 : Azure AI Research
-: I supported Research in AI Alignment with RLHF / RLFAI (Reinforcement Learning from Human or AI Feedback). In 2021, I also supported the Azure Personalizer Service (contextual bandits for Personalization / Recommendations). 
+
+: I was involved with AI Alignment with RLHF / RLFAI (Reinforcement Learning from Human or AI Feedback). In 2021, I also supported the Azure Personalizer Service (contextual bandits for Personalization / Recommendations). 
+
 
 <i class="fas fa-building" aria-hidden="true"></i> Research Engineer / Researcher (2019-2023)
 : Microsoft Research
 
-: I collaborated with other MSR Researchers, focusing on the Embodied Intelligence pillar, trying to design system with reliable Offline pretraining (through Offline RL, Meta-RL and other interactive representation learning methods) and downstream finetuning, involving Skill learning and discovering for fast online adaptation.
+: I was part of a wonderful team at MSR, focusing on the Embodied Intelligence pillar, trying to design system with reliable Offline pretraining (through Offline RL, Meta-RL and other interactive representation learning methods) and downstream finetuning, involving Skill learning and discovering for fast online adaptation.
 
 <i class="fas fa-building" aria-hidden="true"></i> Research Engineer (2019-2021)
 : Microsoft Research
