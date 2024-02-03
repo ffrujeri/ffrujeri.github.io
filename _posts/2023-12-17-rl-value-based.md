@@ -1,14 +1,14 @@
 ---
-title: 'Value-Based Methods in RL'
+title: 'Markov Decision Processes'
 date: 2023-12-17
-permalink: /posts/2023/12/rl-value-based
+permalink: /posts/2023/12/rl-mdps
 tags:
   - ai
   - rl
   - mdp
 ---
 
-The ability to properly formulate a Markov Decision Process (MDP) is imperative for successful application of Reinforcement Learning (RL) methods.
+As we discussed in previous posts, the ability to properly formulate a Markov Decision Process (MDP) is imperative for successful application of Reinforcement Learning (RL) methods.
 
 MDPs serve as a framework to formalize sequential decision-making problems, in which decisions over time are decomposed into a series of subproblems. 
 
@@ -88,12 +88,12 @@ In MDP formulations, the transition function is often hidden in the deceptively 
 
 Deceptive indeed, as it is often the most difficult component to model. Truthfully, the transition function may range from a trivial deterministic function (e.g., a step in GridWorld) to a highly complex Digital Twin representation of reality, with many uncertainties to model.
 
-Although the transition function is a necessary component of the MDP, in RL we do not necessarily define it explicitly. Instead, we may observe transitions from the environment. If we learn to play a game of Super Mario, we likely don't know the actual transition functions; we simply try moves and observe what happens. 
+Although the transition function is a necessary component of the MDP, in RL we do not necessarily define it explicitly. Instead, we may observe transitions from the environment. If we learn to play a game of Super Mario, we likely don’t know the actual transition functions; we simply try moves and observe what happens. 
 
 We may even utilize real-world observations (e.g., when controlling wind farm that depends on weather circumstances). In this case, the world itself is our transition function!
 
 ## Discount factor ($\gamma$)
-The discount factor $\gamma \in [0,1]$ is optional for finite horizon MDPs and therefore not always included in the MDP tuple. It indicates to what extent future rewards are factored into current decision-making, with $\gamma=0$ completely dismissing future rewards and $\gamma=1$ weighing all future rewards equally. 
+The discount factor $γ \in [0,1]$ is optional for finite horizon MDPs and therefore not always included in the MDP tuple. It indicates to what extent future rewards are factored into current decision-making, with $\gamma=0$ completely dismissing future rewards and $\gamma=1$ weighing all future rewards equally. 
 
 There are various rationales for working with discount rates, the chief one is to ensure converging value functions for infinite horizon problems.
 
