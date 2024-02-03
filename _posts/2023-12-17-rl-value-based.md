@@ -1,12 +1,13 @@
 ---
-title: 'Markov Decision Processes'
+title: 'Value-Based Methods in RL'
 date: 2023-12-17
-permalink: /posts/2023/12/rl-mdps
+permalink: /posts/2023/12/rl-value-based
 tags:
   - ai
   - rl
-  - mdp
+  - value-based
 ---
+
 
 As we discussed in previous posts, the ability to properly formulate a Markov Decision Process (MDP) is imperative for successful application of Reinforcement Learning (RL) methods.
 
