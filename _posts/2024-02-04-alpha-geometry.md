@@ -14,18 +14,10 @@ tags:
 
 [Blog](https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/)
 [Paper](https://www.nature.com/articles/s41586-023-06747-5)
-[Code](https://colab.research.google.com/drive/1Pm6xDh4LC7XRtaCxGBa6EGyMP_i16bTQ#scrollTo=uZKtS8u1oIpA)
+[Code](https://github.com/google-deepmind/alphageometry)
+[Colab](https://colab.research.google.com/drive/1Pm6xDh4LC7XRtaCxGBa6EGyMP_i16bTQ#scrollTo=uZKtS8u1oIpA)
 
-## Outline:
-- Problem Statement
-- Core Contribution: Synthetic Data Generation
-- Sampling Premises
-- Symbolic Deduction
-- Traceback
-- Auxiliary Construction
-- Experimental Results
-- Problem Representation
-- Final Comments
+## Summary:
 
 ## Key takeaways:
 
@@ -68,3 +60,11 @@ Represents knowledge in a continuous, distributed manner.
 - Integration Approaches:
   - Loose Coupling: Neural network and symbolic reasoner interact as separate modules, exchanging information through shared representations or intermediate results.
   - Tight Integration: Neural network components are embedded within the symbolic reasoning process, directly influencing reasoning steps.
+
+
+  
+## References:
+- [AIMO Challenge](https://aimoprize.com/)
+- [Metaculus AI Gold Medal](https://www.metaculus.com/questions/6728/ai-wins-imo-gold-medal/)
+- [Yannic Kilcher](https://www.youtube.com/watch?v=ZNK4nfgNQpM&t=1451s)
+- [Trieu hobbies](https://www.youtube.com/watch?v=TuZhU1CiC0k)
