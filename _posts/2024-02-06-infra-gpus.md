@@ -1,4 +1,5 @@
 ---
+layout: archive
 title: 'Infra GPUs'
 date: 2024-02-06
 permalink: /posts/2024/02/infra-gpus

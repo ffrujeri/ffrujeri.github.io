@@ -1,4 +1,5 @@
 ---
+layout: archive
 title: 'Language Models are Few-Shot Learners'
 date: 2020-08-02
 permalink: /posts/2020/08/llms-are-few-shot-learners

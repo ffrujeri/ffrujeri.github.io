@@ -1,4 +1,5 @@
 ---
+layout: archive
 title: 'Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering'
 date: 2024-02-05
 permalink: /posts/2024/02/alpha-codium
