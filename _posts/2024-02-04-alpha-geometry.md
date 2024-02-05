@@ -18,10 +18,19 @@ tags:
 [Colab](https://colab.research.google.com/drive/1Pm6xDh4LC7XRtaCxGBa6EGyMP_i16bTQ#scrollTo=uZKtS8u1oIpA)
 
 ## Summary:
+AlphaGeometry is an AI system developed by DeepMind that can solve complex geometry problems. It uses a combination of a neural language model and a symbolic deduction engine to solve problems. It was able to solve 25 out of 30 Olympiad geometry problems, which is close to the average score of human gold medalists.
+
+The system was able to achieve this by generating a large amount of synthetic training data. This data consisted of millions of geometry problems and their solutions. AlphaGeometry was then trained on this data, and it was able to learn to solve new problems by analogy.
+
+AlphaGeometry is a significant advance in the field of artificial intelligence. It shows that AI systems can now be used to solve complex problems that were previously thought to be the exclusive domain of humans.
+
+Here are some of the key takeaways from the paper:
 
 ## Key takeaways:
 
 - AlphaGeometry is a system that can solve geometry problems without any human demonstrations. It does this by using a combination of a symbolic solver and a large language model.
+
+- AlphaGeometry was trained on a dataset of 100 million synthetic data examples.
 
 - The symbolic solver can reason about the things that already exist in the problem, but it cannot introduce new things. The language model is used to suggest new things to construct, such as points, lines, or circles.
 
