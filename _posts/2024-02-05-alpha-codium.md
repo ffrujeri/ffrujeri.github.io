@@ -21,4 +21,4 @@ tags:
 
   
 ## References:
-- https://www.youtube.com/watch?v=ZNK4nfgNQpM&t=1451s
+- [AI Explained](https://www.youtube.com/watch?v=dOplrIJEYBo&t=531s)

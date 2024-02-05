@@ -1,8 +1,8 @@
 ---
 layout: archive
-title: 'Infra GPUs'
+title: 'Foundation Models Infrastructure'
 date: 2024-02-06
-permalink: /posts/2024/02/infra-gpus
+permalink: /posts/2024/02/foundation-models-infra
 tags:
   - ai
   - infra
@@ -15,4 +15,4 @@ tags:
 
   
 ## References:
-- https://www.youtube.com/watch?v=ZNK4nfgNQpM&t=1451s
+- [AI Explained](https://www.youtube.com/watch?v=dOplrIJEYBo&t=531s)
