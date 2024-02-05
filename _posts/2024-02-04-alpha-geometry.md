@@ -18,7 +18,9 @@ tags:
 [Colab](https://colab.research.google.com/drive/1Pm6xDh4LC7XRtaCxGBa6EGyMP_i16bTQ#scrollTo=uZKtS8u1oIpA)
 
 ## Summary:
-AlphaGeometry is an AI system developed by DeepMind that can solve complex geometry problems. It uses a combination of a neural language model and a symbolic deduction engine to solve problems. It was able to solve 25 out of 30 Olympiad geometry problems, which is close to the average score of human gold medalists.
+AlphaGeometry is an AI system developed by DeepMind that can solve complex geometry problems. It uses a combination of a neural language model and a symbolic deduction engine to solve problems. It was able to solve 25 out of 30 Olympiad geometry problems, which is between the average score of human silver and gold medalists.
+
+<img src='https://lh3.googleusercontent.com/y7r-p8VmkqSLE0ZcwidAO0osQ1Sz1y4FBhwQNkv7t1M5bajHTvCu1vTYxDmVJZ2WuknpHeQB2E6RkPUEu-fAVoAxgh8thMPR6bcK4NFyGFuQ4mo5=w1232-rw' style='display:block; margin:auto;'>
 
 The system was able to achieve this by generating a large amount of synthetic training data. This data consisted of millions of geometry problems and their solutions. AlphaGeometry was then trained on this data, and it was able to learn to solve new problems by analogy.
 
@@ -28,11 +30,23 @@ Here are some of the key takeaways from the paper:
 
 ## Key takeaways:
 
-- AlphaGeometry is a system that can solve geometry problems without any human demonstrations. It does this by using a combination of a symbolic solver and a large language model.
+- AlphaGeometry is a system that can solve geometry problems without any human demonstrations. It does this by using a combination of a **symbolic solver** and a **large language model** akin to the idea of *thinking, fast and slow*, one system provides fast, “intuitive” ideas, and the other, more deliberate, rational decision-making.
 
-- AlphaGeometry was trained on a dataset of 100 million synthetic data examples.
+  - Because language models excel at identifying general patterns and relationships in data, they can quickly predict potentially useful constructs, but often lack the ability to reason rigorously or explain their decisions
 
-- The symbolic solver can reason about the things that already exist in the problem, but it cannot introduce new things. The language model is used to suggest new things to construct, such as points, lines, or circles.
+  - Symbolic deduction engines, on the other hand, are based on formal logic and use clear rules to arrive at conclusions. The symbolic solver can reason about the things that already exist in the problem, but it cannot introduce new things. The language model is used to suggest new things to construct, such as points, lines, or circles.
+  
+<img src='https://lh3.googleusercontent.com/CXoZ8QVYA7wKFPt3RurU7Z0SDyp32YQS9gJaEwE-U1AtjAQ-eXEaGxnOSTUH01oyN7YOxz-BILe390w2wHVEFF7XPmCOzqr0QMBroKc4J5kPFyqYVqU=w1232-rw' style='display:block; margin:auto;'>
+
+<img src='https://lh3.googleusercontent.com/XEyvy2yOfpwazku1bh2mgN48QquA21bUXscAAYOSp34kN-qb1E6glno62gNSqSth921OVJ5nBBT8GNFiVg1nwv3U2jd3vo6YCFENsn3qBD9yQZsD=w1232-rw' style='display:block; margin:auto;'>
+
+- AlphaGeometry was trained on a **dataset of 100 million synthetic data examples**. 
+  
+  - Humans can learn geometry using a pen and paper, examining diagrams and using existing knowledge to uncover new, more sophisticated geometric properties and relationships. Our synthetic data generation approach emulates this knowledge-building process at scale, allowing us to train AlphaGeometry from scratch, without any human demonstrations.
+
+  - The system starts by generating one billion random diagrams of geometric objects and exhaustively derived all the relationships between the points and lines in each diagram. Then it finds all the proofs contained in each diagram, then works backwards to find out what additional constructs, if any, were needed to arrive at those proofs. We call this process *symbolic deduction and traceback*.
+
+<img src='https://lh3.googleusercontent.com/I2xcIu8Js4iZP89NPUe2Cr_43To5aamQNzzXDsDD_PamVRJQFZQ7SUdu6zJVlXAJ2Gq6fnINeHzsQeY5ugdSFzdnAaSrIuYcLsgSfJLDjJalifcD=w1232-rw' style='display:block; margin:auto;'>
 
 - The system works by first trying to solve the problem with the things that are already there. If it can't solve the problem, it asks the language model for a suggestion. It then adds the suggestion to the problem and tries to solve it again. This process repeats until the problem is solved.
 
