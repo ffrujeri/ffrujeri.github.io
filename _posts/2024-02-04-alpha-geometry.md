@@ -1,4 +1,5 @@
 ---
+layout: archive
 title: 'Alpha Geometry: Solving olympiad geometry without human demonstrations.'
 date: 2024-02-04
 permalink: /posts/2024/02/alpha-geometry
