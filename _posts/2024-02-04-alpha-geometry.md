@@ -50,6 +50,10 @@ Here are some of the key takeaways from the paper:
 
 - The system works by first trying to solve the problem with the things that are already there. If it can't solve the problem, it asks the language model for a suggestion. It then adds the suggestion to the problem and tries to solve it again. This process repeats until the problem is solved.
 
+- AlphaGeometry's solutions have machine-verifiable structure. Yet despite this, its output is still human-readable.
+
+- One could have imagined a computer program that solved geometry problems by brute-force coordinate systems: think pages and pages of tedious algebra calculation. AlphaGeometry is not that. It uses classical geometry rules with angles and similar triangles just as students do.”
+
 - AlphaGeometry is a very specialized system that only works for a certain type of geometry problem. However, it is very good at solving these problems, and it is often better than humans.
 
 ## Key innovations:
