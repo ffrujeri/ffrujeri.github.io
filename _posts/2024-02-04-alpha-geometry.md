@@ -61,7 +61,6 @@ Here are some of the key takeaways from the paper:
 <img src='/images/alpha-geometry_main_results.png' style='display:block; margin:auto;'>
 
 
-
 ## Key innovations:
 
 - **Synthetic theorems and proofs generation**: 
