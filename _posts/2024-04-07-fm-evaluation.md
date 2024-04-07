@@ -13,6 +13,15 @@ tags:
   - A **test set** is used (different from the **training set**) totally unseen / unused.
   - An **evaluation metrics** tells us how well our model does on the test set
 
+## N-gram Probabilities and Markov assumption
+- Recall of the definition of conditional probabilities and chain rule
+$$P(A,B) = P(A|B) P(B)$$
+$$P(x_1,x_2,x_3,...,x_n) = P(x_1)P(x_2|x_1)P(x_3|x_1,x_2)...P(x_n|x_1,...,x_{n-1})$$
+
+- We do everything in log probs:
+  - Avoid underflow
+  - Also adding is faster than multiplying $(p_1 * p_2 * p_3 * p_4) -> log p_1 + log p_2 + log p_3 + log p_4$
+
 ## Extrinsic evaluation of N-gram models
 - Best evaluation for comparing models A and B is put test in a downstream task
   - E.g. for LM spelling corrector, speech recognizer, Machine Translation systetm
@@ -43,7 +52,15 @@ $$PP(W) = P(w_1w_2...w_n)^{1/N}$$
       - Perplexity = 30000
     - What if the system needs to recognize Operator (1 in 4), Sales (1 in 4), Tech support (1 in 4), 30,000 names (1 in 120,000 each)
       - Perplexity is 54
+
+- The lower the perplexity the better the model
+E.g.: Training 38 million words, test 1.5 million words, WSJ
+
+| N-gram order | Unigram |Bigram | Trigram |
+|--------------|---------|-------|---------|
+| Perplexity   |    963  |   170 |   109   |
   
 
 ## References
 - [Evaluation and Perplexity](https://www.youtube.com/watch?v=BAN3NB_SNHY&t=55s)
+- [SRILM](https://www.speech.sri.com/projects/srilm/)

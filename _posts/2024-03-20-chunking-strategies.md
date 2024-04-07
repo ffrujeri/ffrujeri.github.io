@@ -1,11 +1,11 @@
 ---
 layout: archive
 title: 'Chunking strategies on dataset for pretraining Foundation Models'
-date: 2024-02-06
+date: 2024-03-20
 permalink: /posts/2024/03/chunking-strategies
 tags:
   - ai
-  - infra
+  - data
 ---
 
 Imagine trying to devour a whole cake in one bite. It’s not only impractical but also overwhelming. 
