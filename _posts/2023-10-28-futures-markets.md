@@ -1,0 +1,27 @@
+---
+layout: archive
+title: 'Futures Markets'
+date: 2023-10-28
+permalink: /posts/2023/10/futures-markets
+tags:
+  - finance
+  - futures markets
+---
+
+## Asset Classes
+- Fixed Income
+  - [CME.ZN](https://www.cmegroup.com/markets/interest-rates/us-treasury/10-year-us-treasury-note.html)
+  - [CME.ZB](https://www.cmegroup.com/markets/interest-rates/us-treasury/30-year-us-treasury-bond.html)
+
+- Equitites
+- Currencies (FX)
+- Commodities
+  - Metals
+  - Agriculture
+  - Energy
+
+References
+======
+- https://medium.com/quant-factory/why-we-use-log-return-in-finance-349f8a2dc695
+- https://gregorygundersen.com/blog/2022/02/06/log-returns/
+

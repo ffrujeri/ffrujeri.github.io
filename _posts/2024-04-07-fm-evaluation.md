@@ -22,7 +22,7 @@ $$P(x_1,x_2,x_3,...,x_n) = P(x_1)P(x_2|x_1)P(x_3|x_1,x_2)...P(x_n|x_1,...,x_{n-1
   - Avoid underflow
   - Also adding is faster than multiplying 
 
-$$(p_1 * p_2 * p_3 * p_4) <> log p_1 + log p_2 + log p_3 + log p_4$$
+$$(p_1 * p_2 * p_3 * p_4) <> \log p_1 + \log p_2 + \log p_3 + \log p_4$$
 
 ## Extrinsic evaluation of N-gram models
 - Best evaluation for comparing models A and B is put test in a downstream task
