@@ -67,3 +67,5 @@ E.g.: Training 38 million words, test 1.5 million words, WSJ
 ## References
 - [Evaluation and Perplexity](https://www.youtube.com/watch?v=BAN3NB_SNHY&t=55s)
 - [SRILM](https://www.speech.sri.com/projects/srilm/)
+- [Perplexity](https://huggingface.co/docs/transformers/en/perplexity)
+- [Evaluation Metrics for Language Modeling](https://thegradient.pub/understanding-evaluation-metrics-for-language-models/)

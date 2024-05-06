@@ -25,3 +25,4 @@ References
 - https://medium.com/quant-factory/why-we-use-log-return-in-finance-349f8a2dc695
 - https://gregorygundersen.com/blog/2022/02/06/log-returns/
 
+

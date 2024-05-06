@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: 'Fondation Models for Quantitivate Finace'
+title: 'Foundation Models for Quantitative Finance'
 date: 2022-08-22
-permalink: /posts/2022/08/fm-for-quant
+permalink: /posts/2022/08/fm-for-quant-fin
 tags:
   - ai
-  - quantitative finance
+  - quantitative-finance
 ---
 
 

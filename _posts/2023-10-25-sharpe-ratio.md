@@ -33,4 +33,5 @@ It is essential that the Sharpe Ratio is computed using the mean and standard de
 
 ## References
 [The Sharpe Ratio](https://web.stanford.edu/~wfsharpe/art/sr/sr.htm)
+[The statistics of Sharpe Ratio](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=05561b77acfdd034a585c32048819cc9ba6d1434)
 
