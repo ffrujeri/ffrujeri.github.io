@@ -12,13 +12,33 @@ tags:
 - Fixed Income
   - [CME.ZN](https://www.cmegroup.com/markets/interest-rates/us-treasury/10-year-us-treasury-note.html)
   - [CME.ZB](https://www.cmegroup.com/markets/interest-rates/us-treasury/30-year-us-treasury-bond.html)
+  - []
 
 - Equitites
+  - [CME.ES]
+  - [CME.MES]
+  - [CME.NQ]
+  - [CME.MNQ]
+  - [CME.MYM]
+  - [CME.YM]
+  - [CME.RTY]
+  - [CME.M2K]
+
 - Currencies (FX)
 - Commodities
   - Metals
   - Agriculture
+    - [CME.HE] passive
+    - [CME.KE] active
+    - [CME.ZL] passive
+    - [CME.ZM] passive
+    - [CME.ZS] passive / hybrid
+    - [CME.ZW] hybrid / active
+
   - Energy
+    - [CME.CL] active
+
+    - [CME.HO]
 
 References
 ======

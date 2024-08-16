@@ -11,4 +11,5 @@ tags:
 
 ## References
 [Quantitative Trading Summary](https://blog.headlandstech.com/2017/08/)
+[Point72](https://github.com/Point72)
 
