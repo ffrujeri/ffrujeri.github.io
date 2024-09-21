@@ -9,7 +9,7 @@ redirect_from:
 ---
 I am a Research Scientist with a solid background in Software Engineering and an uncoventional path to Research. 
 
-More recently, I have been involved with the next generation of LLM-based Agents, pretraining of Foundation Models with focus on Trading for Quantitative Finance use cases. 
+More recently, I have been involved with the next generation of LLM-based Agents, focusing on pretraining of Foundation Models with focus on Trading for Quantitative Finance as well in post-training RL finetuing for Reasoning.
 
 Before, I also worked with RL finetuning for LLMs (RLHF / RLAIF), with focus on AI Alignment in the OpenAI core models team at Azure AI Research.
 
