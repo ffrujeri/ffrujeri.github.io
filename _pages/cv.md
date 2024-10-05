@@ -12,7 +12,7 @@ Experience
 <i class="fas fa-building" aria-hidden="true"></i> Research Scientist (2023-Present)
 : Vatic Labs
 
-: I decided to join Vatic Labs to focus on AGI frontiers for quantitative finance challenges.
+: I decided to join Vatic Labs to focus on the frontiers Digital AGI with sandbox of quantitative finance challenges.
 
 <i class="fas fa-building" aria-hidden="true"></i> Research Scientist (2021-2023)
 : Azure AI Research
