@@ -9,9 +9,9 @@ redirect_from:
 ---
 I am a Research Scientist with a solid background in Software Engineering and an uncoventional path to Research. 
 
-More recently, I have been involved with the next generation of LLM-based Agents, focusing on pretraining of Foundation Models with focus on Trading for Quantitative Finance as well in post-training RL finetuing for Reasoning.
+More recently, I have been involved with the next generation of LLM-based Agents, focusing on pretraining of Foundation Models with focus on Trading for Quantitative Finance as well in post-training RL finetuning for Reasoning.
 
-Before, I also worked with RL finetuning for LLMs (RLHF / RLAIF), with focus on AI Alignment in the OpenAI core models team at Azure AI Research.
+Before, I also worked with RL finetuning for LLMs (RLHF / RLAIF), with focus on AI Alignment in the OpenAI core models team at Microsoft in the Azure AI Research Team.
 
 I received my Master’s Degree in Image, Vision and Machine Learning in a double degree program between [ITA (Brazil)](http://www.ita.br/) and [École Polytechnique (France)](https://www.polytechnique.edu/).
 
