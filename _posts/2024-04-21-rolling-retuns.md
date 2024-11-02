@@ -3,6 +3,7 @@ layout: archive
 title: 'Rolling returns'
 date: 2024-09-18
 permalink: /posts/2024/09/rolling-returns
+excerpt: "Metrics to calculate rolling returns"
 tags:
   - quantitative-finance
   - timeseries

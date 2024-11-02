@@ -3,6 +3,7 @@ layout: archive
 title: 'Foundation Models for Quantitative Finance'
 date: 2022-08-22
 permalink: /posts/2022/08/fm-for-quant-fin
+excerpt: "What do we know about the use of Foundation Models in Quantitative Finance?"
 tags:
   - ai
   - quantitative-finance

@@ -3,6 +3,7 @@ layout: archive
 title: 'Transformers'
 date: 2019-02-20
 permalink: /posts/2019/02/transformers
+excerpt: "Transformers for sequence modeling"
 tags:
   - ai
   - llm

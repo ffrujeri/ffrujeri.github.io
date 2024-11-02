@@ -3,6 +3,7 @@ layout: archive
 title: 'Basic Statistics Course'
 date: 2023-10-04
 permalink: /posts/2023/10/statistics
+excerpt: "Basic Statistics Course"
 tags:
   - statistics
 ---

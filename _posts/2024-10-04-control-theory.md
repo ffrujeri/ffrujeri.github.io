@@ -3,6 +3,7 @@ layout: archive
 title: 'Control Theory'
 date: 2024-10-04
 permalink: /posts/2024/10/control-theory
+excerpt: "Survey of control theory concepts and applications."
 tags:
   - control theory
 ---  

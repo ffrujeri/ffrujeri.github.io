@@ -3,6 +3,7 @@ layout: archive
 title: 'Regression Analysis'
 date: 2023-10-06
 permalink: /posts/2023/10/regression-analysis
+excerpt: "Understanding Linear Regression Concepts"
 tags:
   - statistics
   - regression

@@ -3,6 +3,7 @@ layout: archive
 title: 'Contextual Bandits'
 date: 2021-03-22
 permalink: /posts/2021/03/contextual-bandits
+excerpt: "Survey on Contextual Bandits algorithms"
 tags:
   - rl
   - contextual-bandits
