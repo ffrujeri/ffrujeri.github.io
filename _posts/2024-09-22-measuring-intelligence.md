@@ -3,7 +3,7 @@ layout: archive
 title: 'Measuring Intelligence'
 date: 2024-09-22
 permalink: /posts/2024/09/measuring-intelligence
-excerpt: "Survey on HOw to measure intelligence"
+excerpt: "Survey on How to measure intelligence"
 tags:
   - ai
   - timeseries
