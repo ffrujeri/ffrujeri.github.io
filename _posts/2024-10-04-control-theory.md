@@ -58,10 +58,12 @@ Typically used for systems where multiple states are involved, and it is suitabl
 
 **State-Space Representation:** The system is represented as a set of first-order differential (or difference) equations:
 
-
-x˙(t) = A x(t) + B u(t)
+$$
+\dot{x}(t) = A x(t) + B u(t)
+$$
+$$
 y(t) = C x(t) + D u(t)
-
+$$
 
 where `x(t)` represents the system states, `u(t)` is the input, `y(t)` is the output, and `A`, `B`, `C`, and `D` are matrices defining system dynamics.
 
@@ -202,7 +204,7 @@ For State-Space Control, we need to represent the lander's dynamics in state-spa
 
 **State-Space Formulation:**
 
-State vector: $[x, y, h\_speed, v\_speed, fuel]$
+State vector: $[x, y, h_{speed}, v_{speed}, fuel]$
 
 Control vector: $[rotate, thrust]$
 
@@ -273,8 +275,9 @@ The goal is to minimize fuel consumption while ensuring that the lander touches 
 The current state (position, speed, fuel, etc.).
 Future states based on the decisions made (thrust and rotation).
 A state in the Mars Lander problem can be represented as:
-\text{State} = (x, y, h_{\text{speed}}, v_{\text{speed}}, \text{fuel})
-
+$$
+\text{state} = (x, y, h_{\text{speed}}, v_{\text{speed}}, \text{fuel})
+$$
 The key is to compute the optimal action (rotation and thrust) from any state to reach the goal state (successful landing) with minimum cost.
 
 DP Approach to Solve Mars Lander:
