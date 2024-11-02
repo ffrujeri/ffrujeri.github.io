@@ -4,9 +4,9 @@ title: 'Rolling returns'
 date: 2024-09-18
 permalink: /posts/2024/09/rolling-returns
 tags:
-  - finances
+  - quantitative-finance
   - timeseries
- --  
+---
 
 ## References
 
