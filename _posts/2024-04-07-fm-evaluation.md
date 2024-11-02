@@ -3,6 +3,7 @@ layout: archive
 title: 'Evaluation of Foundation Models'
 date: 2024-04-07
 permalink: /posts/2024/04/fm-evaluation
+excerpt: "What do we need to properly evaluate a foundation model?"
 tags:
   - ai
   - evaluation
