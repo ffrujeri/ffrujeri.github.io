@@ -3,6 +3,7 @@ layout: archive
 title: 'Quantitative Trading'
 date: 2023-10-24
 permalink: /posts/2023/10/quant-trading
+excerpt: "Quantitative Trading Summary"
 tags:
   - finance
   - quantitative finance

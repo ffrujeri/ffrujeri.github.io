@@ -3,6 +3,7 @@ layout: archive
 title: 'Futures Markets'
 date: 2023-10-28
 permalink: /posts/2023/10/futures-markets
+excerpt: "Futures Markets Summary"
 tags:
   - finance
   - futures markets

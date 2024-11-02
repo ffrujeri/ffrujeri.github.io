@@ -3,6 +3,7 @@ layout: archive
 title: 'Foundation Models Infrastructure'
 date: 2024-02-06
 permalink: /posts/2024/02/foundation-models-infra
+excerpt: "Foundation Models Infrastructure"
 tags:
   - ai
   - infra

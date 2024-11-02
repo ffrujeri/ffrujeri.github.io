@@ -3,6 +3,7 @@ layout: archive
 title: 'Sharpe Ratio'
 date: 2023-10-25
 permalink: /posts/2023/10/sharpe-ratio
+excerpt: "Understanding the Sharpe Ratio"
 tags:
   - finance
   - quantitative finance

@@ -3,6 +3,7 @@ layout: archive
 title: 'Why do we use log returns in financial models'
 date: 2023-10-30
 permalink: /posts/2023/10/log-returns
+excerpt: "Understanding the use of log returns in financial models"
 tags:
   - finance
   - timeseries forecasting

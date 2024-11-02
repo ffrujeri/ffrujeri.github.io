@@ -3,6 +3,7 @@ layout: archive
 title: 'Value-Based Methods in RL'
 date: 2023-12-17
 permalink: /posts/2023/12/rl-value-based
+excerpt: "Value-Based Methods in Reinforcement Learning"
 tags:
   - ai
   - rl

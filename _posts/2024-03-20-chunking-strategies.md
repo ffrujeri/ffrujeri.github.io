@@ -3,6 +3,7 @@ layout: archive
 title: 'Chunking strategies on dataset for pretraining Foundation Models'
 date: 2024-03-20
 permalink: /posts/2024/03/chunking-strategies
+excerpt: "Chunking strategies on dataset for pretraining Foundation Models"
 tags:
   - ai
   - data
