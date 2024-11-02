@@ -3,8 +3,7 @@ layout: archive
 title: 'Board Games DSL'
 date: 2024-10-15
 permalink: /posts/2024/10/board-games-dsl/
-header:
-  teaser: "We try to desing a DSL for board games."
+excerpt: "We try to desing a DSL for board games."
 tags:
   - board games
   - dsl
