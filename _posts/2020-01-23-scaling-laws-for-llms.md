@@ -17,7 +17,9 @@ tags:
 
 [Chinchilla Scaling Laws for Large Language Models (LLMs)](https://medium.com/@raniahossam/chinchilla-scaling-laws-for-large-language-models-llms-40c434e4e1c1)
 
+<img src='/images/posts/2020-08-scaling-laws-for-llms/compute-optimal.png' style='display:block; margin:auto;'>
+
 [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556)
 
 
-<img src='/images/compute-deeplearning.png' style='display:block; margin:auto;'>
+<img src='/images/posts/2020-08-scaling-laws-for-llms/compute-deeplearning.png' style='display:block; margin:auto;'>
