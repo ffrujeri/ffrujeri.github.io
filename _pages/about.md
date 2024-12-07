@@ -32,6 +32,8 @@ News and Updates
 ======
 - 2023.10: I will be in [ICCV](https://iccv2023.thecvf.com/) presenting [HoloAssist](https://holoassist.github.io/). Stop by to chat!
 
+- 2024.12: I will be in [NeurIPS](https://nips.cc/). Let's meet!
+
 Contact
 ======
 If you are interested in Cognitive Architectures augmenting LLMs with a Pre-frontal Cortex and External Memory with focus on Multi-modality, Embodiment and Skill Learning, please ping me.

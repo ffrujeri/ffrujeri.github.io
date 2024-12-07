@@ -207,13 +207,5 @@ By using both correlation and scaled beta, you can gain a more complete understa
 Use code with caution.
 
 
-
-
-
-
-
-
-
-
-
 ## References
+- [The Ultimate Guide for Linear Regression Theory](https://medium.com/@luckecianomelo/the-ultimate-guide-for-linear-regression-theory-918fe1acb380)
