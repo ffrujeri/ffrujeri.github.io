@@ -49,11 +49,6 @@ By using these rolling window metrics, analysts can identify patterns, trends, a
 Would you like to delve deeper into any specific metric or its application in a particular context?
 
 
-
-
-
-
-
 Is there a way to aggregate different window sizes?
 
 
@@ -86,10 +81,6 @@ Range: Calculate the range of Sharpe ratios to see how much the risk-adjusted pe
 By aggregating rolling window metrics across different sizes, you can gain a more nuanced understanding of an asset's performance and identify potential patterns or anomalies that might not be apparent when considering a single window size.
 
 Would you like to explore a specific aggregation method or its application in a particular scenario?
-
-
-
-
 
 
 

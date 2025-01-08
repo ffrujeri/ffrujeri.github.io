@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Research Scientist with a solid background in Software Engineering and an uncoventional path to Research. 
+I am a Research Scientist with a solid background in Software Engineering and an unconventional path to Research. 
 
 More recently, I have been involved with the next generation of LLM-based Agents, focusing on pretraining of Foundation Models with focus on Trading for Quantitative Finance as well as in post-training RL finetuning for Reasoning.
 
@@ -26,7 +26,7 @@ My main Research agenda in that last years has been on **Foundation Models for A
 - **Digital AGI (Skill Learning / Decision making / Tool Usage)**
 - **Embodied Intelligence / Robot Learning**
 
-While I am searching for a path towards funding for my AGI Research, I create profitable solutions in real-world optimal control applications spanning from autonomous systems to data center energy optimization. In particular, currently I am involved on the adaptation / finetuning of Large Language Models with human inductive bias in the loop (AI alignment) and Reasoning for Quantitave Finance.
+While I am searching for a path towards funding for my AGI Research, I create profitable solutions in real-world optimal control applications spanning from autonomous systems to data center energy optimization. In particular, currently I am involved on the adaptation / finetuning of Large Language Models with human inductive bias in the loop (AI alignment) and Reasoning for Quantitative Finance.
 
 News and Updates
 ======
