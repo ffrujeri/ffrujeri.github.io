@@ -23,3 +23,7 @@ tags:
 
 
 <img src='/images/posts/2020-08-scaling-laws-for-llms/compute-deeplearning.png' style='display:block; margin:auto;'>
+
+<img src='/images/posts/2020-08-scaling-laws-for-llms/scaling-model-data-compute.png' style='display:block; margin:auto;'>
+
+<img src='/images/posts/2020-08-scaling-laws-for-llms/more-compute.png' style='display:block; margin:auto;'>

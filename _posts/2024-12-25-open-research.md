@@ -18,3 +18,6 @@ In addition to the benefits of collaboration, open research also promotes transp
 Finally, open research has the potential to have a broader impact beyond the scientific community. By making research outputs freely available, researchers can engage with a wider audience, including policymakers, educators, and the general public. This engagement can help to raise awareness of important scientific issues and promote evidence-based decision-making in a variety of fields.
 
 <img src='/images/posts/2024-12-25-open-research/open-llms.png' style='display:block; margin:auto;'>
+
+
+<img src='/images/posts/2024-12-25-open-research/open-vs-closed.png' style='display:block; margin:auto;'>
