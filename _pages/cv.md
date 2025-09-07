@@ -9,10 +9,16 @@ redirect_from:
 
 Experience
 ======
-<i class="fas fa-building" aria-hidden="true"></i> Research Scientist (2023-Present)
+<i class="fas fa-building" aria-hidden="true"></i> Research Scientist (2023-2025)
+: NVIDIA
+
+: I am proud to join the NeMo Framework team at NVIDIA and help push the boundaries on Reasoning and multi-modal models.
+
+
+<i class="fas fa-building" aria-hidden="true"></i> Research Scientist (2023-2025)
 : Vatic Labs
 
-: I decided to join Vatic Labs to focus on the frontiers Digital AGI with sandbox of quantitative finance challenges.
+: I decided to join Vatic Labs for a few years to learn about the challenges and possibilities on the frontiers Digital AGI with sandbox on quantitative finance.
 
 <i class="fas fa-building" aria-hidden="true"></i> Research Scientist (2021-2023)
 : Azure AI Research
