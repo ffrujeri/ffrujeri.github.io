@@ -9,7 +9,7 @@ redirect_from:
 
 Experience
 ======
-<i class="fas fa-building" aria-hidden="true"></i> Research Scientist (2023-2025)
+<i class="fas fa-building" aria-hidden="true"></i> Research Scientist (2025-present)
 : NVIDIA
 
 : I am proud to join the NeMo Framework team at NVIDIA and help push the boundaries on Reasoning and multi-modal models.
