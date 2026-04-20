@@ -9,7 +9,7 @@ redirect_from:
 ---
 I am a Research Scientist with a solid background in Software Engineering and an unconventional path to Research. 
 
-More recently, I have been involved with the next generation of LLM-based Agents, with Environment Design for RL post-training of Large Language Models and how to build agents based on Reasoning and Tool Usage.
+More recently, I have been involved with the next generation of LLM-based Agents, with Environment Design for RL post-training and how to build agents based on Reasoning and Tool Usage.
 
 Before that, I was focusing on pretraining of Foundation Models with focus on Trading for Quantitative Finance as well as in post-training RL finetuning for Reasoning. 
 
