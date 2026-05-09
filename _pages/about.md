@@ -13,12 +13,11 @@ More recently, I have been involved with the next generation of LLM-based Agents
 
 Before that, I was focusing on pretraining of Foundation Models with focus on Trading for Quantitative Finance as well as in post-training RL finetuning for Reasoning. 
 
-I also worked with RL finetuning with RLHF / RLAIF, with focus on AI Alignment in the OpenAI core models team at Microsoft in the Azure AI Research Team.
+I also worked with RL finetuning with RLHF / RLAIF, and PRM (Process Reward Models) with focus on AI Alignment in the OpenAI core models team at Microsoft in the Azure AI Research Team.
 
 I received my Master’s Degree in Image, Vision and Machine Learning in a double degree program between [ITA (Brazil)](http://www.ita.br/) and [École Polytechnique (France)](https://www.polytechnique.edu/).
 
-In previous teams at Microsoft, I worked with Knowledge and Language group and in Microsoft Research (MSR) as a Research Engineer.
-And in the [Cloud Efficiency group](https://www.microsoft.com/en-us/research/group/azure-systems-research/), I contributed to several "Self-driving datacenter" scenarios through the [Resource Central](https://www.microsoft.com/en-us/research/publication/resource-central-understanding-predicting-workloads-improved-resource-management-large-cloud-platforms/) platform (ML prediction-serving System for Azure).
+In previous teams at Microsoft, I worked with Knowledge and Language group and in Microsoft Research (MSR) as a Research Engineer in the [Cloud Efficiency group](https://www.microsoft.com/en-us/research/group/azure-systems-research/), I contributed to several "Self-driving datacenter" scenarios through the [Resource Central](https://www.microsoft.com/en-us/research/publication/resource-central-understanding-predicting-workloads-improved-resource-management-large-cloud-platforms/) platform (ML prediction-serving System for Azure).
 
 Research
 ======
@@ -36,6 +35,8 @@ News and Updates
 
 - 2024.12: I will be in [NeurIPS](https://nips.cc/). Let's meet!
 
+- 2025.12: If you are in San Diego for [NeurIPS](https://nips.cc/), ping me!
+
 Contact
 ======
-If you are interested in Cognitive Architectures augmenting LLMs with a Pre-frontal Cortex and External Memory with focus on Multi-modality, Embodiment and Skill Learning, please ping me.
+If you are interested in Cognitive Architectures augmenting LLMs with a Pre-frontal Cortex and External Memory with focus on Multi-modality, Embodiment and Skill Learning, feel free to reach out.
