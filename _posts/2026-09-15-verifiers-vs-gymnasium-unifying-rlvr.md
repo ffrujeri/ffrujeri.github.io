@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Verifiers vs. Gymnasium: Deconstructing RLVR and Unifying Stateful Tool Environments"
-date: 2026-09-16
+date: 2026-09-15
 permalink: /posts/2026/09/verifiers-vs-gymnasium-unifying-rlvr
 excerpt: Analyzing the architectural split between RLVR verifiers and Gymnasium environments: how two-tier step/turn boundaries, composition patterns, and external verify hooks unify stateless scoring with stateful tool execution.
 tags:
