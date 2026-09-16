@@ -11,7 +11,7 @@ I am a Research Scientist with a solid background in Software Engineering and an
 
 More recently, I have been involved with the next generation of LLM-based Agents, with Environment Design for Self-improving Super-Intelligence and how to build agents based on Reasoning and Tool Usage. Working on NeMo-RL and NeMo-Gym for Nemotron post-training at NVIDIA.
 
-Before that, I was focusing on pretraining of Foundation Models with focus on Automated Quant Research and Trading. 
+Before that, I was focusing on pretraining of Foundation Models for Automated Quant Research and Trading. 
 
 I also worked with RL finetuning with RLHF / RLAIF, and PRM (Process Reward Models) with focus on AI Alignment in the OpenAI core models team at Microsoft in the Azure AI Research Team.
 
