@@ -27,7 +27,9 @@ $$\mathcal{M} = \langle S, A, T, R, \Omega, O, \rho_0 \rangle$$
 
 states, actions, transition dynamics, reward, observations, the observation function and an initial-state distribution. In a Gymnasium environment the world's side of this lives behind `reset()` and `step()`: CartPole's physics, its reward and its start state ship in one class.
 
-The agent's side was never just a network. In keras-rl, a `DQNAgent` is assembled from four objects: the network, a replay memory that also stacks the last frames into a state, an exploration policy, and a `Processor`, which the library describes as "a coupling mechanism between an `Agent` and its `Env`". For Atari, the processor resizes the frames and clips the rewards, so that neither the agent nor the environment has to change to fit the other. The agent was always an interface around the policy model. Russell and Norvig put it in one line: agent = architecture + program.
+The agent's side was never just a network. In keras-rl, a `DQNAgent` wraps the network with a replay memory that also stacks the last frames into a state, and with an exploration policy that turns Q-values into an action. The agent was always an interface around the policy model. Russell and Norvig put it in one line: agent = architecture + program.
+
+There was also a third thing, between the two sides. keras-rl calls it a `Processor`: "a coupling mechanism between an `Agent` and its `Env`". For Atari, it resizes the frames and clips the rewards, so that neither the agent nor the environment has to change to fit the other. keras-rl hands the processor to the agent, and the agent's own `fit()` method resets the environment and runs the step loop. I think that placement was a mistake: connecting the two sides and passing control between them is not the agent's job. Section 5 comes back to it.
 
 LLM agents changed both sides. The symbols that one `env` class used to hold now come from different owners, and the program around the model became a product of its own:
 
@@ -104,10 +106,11 @@ The DQN agent from section 1 has the same shape in miniature:
 | --- | --- | --- |
 | Network | The trainable function | The model $\pi_\theta$ |
 | Memory, with a frame window | Builds a state from the recent history | `context`: prompt assembly, compaction, memory files |
-| Exploration policy (ε-greedy) | Turns the network's output into an action | `decode`: tool-call parsing, retries, stop rules |
-| Processor | Translates observations, actions and rewards between agent and environment | Chat template, tool-result formatting |
+| Exploration policy (ε-greedy) | Turns the network's output into an action | `decode`: tool-call parsing, retries, when to end the turn |
 
-That gives two boundaries, and both are legitimate. Sutton and Barto note that the boundary "can be located at different places for different purposes." For the gradient, it sits at the model API: tokens are the only thing the model sets freely, so relative to the policy the harness behaves like part of the dynamics. For the experiment, it sits at the tool interface: the agent is harness plus model, and the environment starts at the world. This post uses the second, because that is the boundary that decides what a score compares. AlphaZero is the precedent: gradients flow only through the network, yet nobody calls the tree search part of the environment.
+The processor is not in this table, because it is not a part of the agent.
+
+A harness around a model gives two boundaries, and both are legitimate. Sutton and Barto note that the boundary "can be located at different places for different purposes." For the gradient, it sits at the model API: tokens are the only thing the model sets freely, so relative to the policy the harness behaves like part of the dynamics. For the experiment, it sits at the tool interface: the agent is harness plus model, and the environment starts at the world. This post uses the second, because that is the boundary that decides what a score compares. AlphaZero is the precedent: gradients flow only through the network, yet nobody calls the tree search part of the environment.
 
 This is why the same model can score very differently under two harnesses on the same coding or computer-use benchmark, and why I think of a score as:
 
@@ -146,9 +149,15 @@ An episode has an order: reset the world to $\rho_0$, hand the goal to the agent
 
 Sutton and Barto put the reward outside the agent on purpose. The agent can know everything about how the reward is computed, but it cannot be the one computing it. The same goes for the initial state. Yet a common pattern in LLM benchmarks is an "agent" that resets its own world, runs its own loop, calls the grader itself and returns a number. It works, and it couples everything: you cannot swap the harness without rewriting the benchmark, and a failure in the grader is reported as a failure of the agent.
 
-Simulated users are the sharpest version of this. In a τ-bench-style task, the policy talks to an LLM playing a customer with a hidden goal. From the evaluated agent's side, that customer is part of the environment: it is the transition function that produces the next observation, and its hidden persona is part of $\rho_0$. You can also model it as a second agent in a two-player game, with its own harness and model. Both are defensible. What is not defensible is running the simulator inside the evaluated agent's harness. When that happens, the simulator's tokens are billed to the policy, its outages are logged as the policy's failures, and no other harness can take the test.
+The pattern is older than LLMs. It is keras-rl's `agent.fit(env)` from section 1, where the agent held the processor and ran the loop. Other libraries of that time already kept the loop outside: Acme's `EnvironmentLoop` takes an environment and an actor and, in its own words, "coordinates their interaction".
 
-The rule I use: the side that defines the task runs the episode. The agent acts only when it is asked to.
+With LLM agents the processor's job is larger, so its placement matters more. The agent no longer takes one action each time it is called. It takes a turn: many model calls and tool calls against the environment. Then it yields control, and something outside the agent has to decide what comes next: a reply from a simulated user, the next step of the task, the grader, or cleanup. That component is the episode processor.
+
+The episode processor can stand alone, as Acme's loop does, or it can live in the environment. With more than one agent, the environment is the natural place, because in a turn-based game who acts next is a function of the state. PettingZoo's turn-based API works this way: the environment holds `agent_selection`, the agent that acts next, and no agent decides the order. This is a choice of placement, not a new definition. The environment is still its state, actions and dynamics, whether or not it hosts the loop.
+
+Simulated users are the sharpest version of this. In a τ-bench-style task, the policy talks to an LLM playing a customer with a hidden goal. From the evaluated agent's side, that customer is part of the environment: it is the transition function that produces the next observation, and its hidden persona is part of $\rho_0$. You can also model it as a second agent in a two-player game, with its own harness and model, where the environment selects who speaks next. Both are defensible. What is not defensible is running the simulator inside the evaluated agent's harness. When that happens, the simulator's tokens are billed to the policy, its outages are logged as the policy's failures, and no other harness can take the test.
+
+The rule I use: no agent runs the episode. The episode processor sits between the agents and the environment, or inside the environment, and an agent acts only when it is asked to.
 
 ---
 
@@ -240,6 +249,8 @@ None of this is new theory. It is the agent–environment boundary from chapter 
 - Russell & Norvig, *Artificial Intelligence: A Modern Approach*, ch. 2 "Intelligent Agents" (agent = architecture + program)
 - [keras-rl](https://github.com/keras-rl/keras-rl): `Agent` and `Processor` in `rl/core.py`, and the Atari example in `examples/dqn_atari.py`
 - Silver et al., [Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm](https://arxiv.org/abs/1712.01815) (AlphaZero)
+- [Acme](https://github.com/google-deepmind/acme): `EnvironmentLoop` in `acme/environment_loop.py`
+- [PettingZoo: Gym for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2009.14471)
 - Kaelbling, Littman & Cassandra, "Planning and Acting in Partially Observable Stochastic Domains", *Artificial Intelligence*, 1998
 - Hallak, Di Castro & Mannor, [Contextual Markov Decision Processes](https://arxiv.org/abs/1502.02259)
 - [Gymnasium: A Standard Interface for Reinforcement Learning Environments](https://arxiv.org/abs/2407.17032)
