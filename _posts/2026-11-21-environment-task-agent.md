@@ -15,7 +15,7 @@ tags:
 
 "Model X scores 62% on benchmark Y" sounds like one fact about one thing. For an LLM agent it is a fact about four things at once: the world the agent acted in, the problems it was given, the scaffold wrapped around the model, and the model. Change any one of them and the number moves. Most confusion I see in agent evaluation and agent RL comes from not knowing which one moved.
 
-Classical RL never had this problem, because one object called `env` held almost everything. LLM agents pulled that object apart. This post is the decomposition I now use to put it back together: three parts, one rule for each, and one hard boundary case, which is tools.
+Classical deep RL had the same four things, but the lines between them were easy to see. One `env` class held the world, its reward and its start state, and the agent was a small program around a network. LLM agents split the first across several owners and turned the second into a product. This post is the decomposition I now use to keep them apart: three parts, one rule for each, and one hard boundary case, which is tools.
 
 ---
 
@@ -25,9 +25,11 @@ The textbook object is a POMDP:
 
 $$\mathcal{M} = \langle S, A, T, R, \Omega, O, \rho_0 \rangle$$
 
-states, actions, transition dynamics, reward, observations, the observation function and an initial-state distribution. In a Gymnasium environment all of it lives behind `reset()` and `step()`. CartPole's physics, its reward and its start state ship in one class, and the "agent" is whatever calls `step()`.
+states, actions, transition dynamics, reward, observations, the observation function and an initial-state distribution. In a Gymnasium environment the world's side of this lives behind `reset()` and `step()`: CartPole's physics, its reward and its start state ship in one class.
 
-In an LLM agent stack, the same symbols come from different owners:
+The agent's side was never just a network. In keras-rl, a `DQNAgent` is assembled from four objects: the network, a replay memory that also stacks the last frames into a state, an exploration policy, and a `Processor`, which the library describes as "a coupling mechanism between an `Agent` and its `Env`". For Atari, the processor resizes the frames and clips the rewards, so that neither the agent nor the environment has to change to fit the other. The agent was always an interface around the policy model. Russell and Norvig put it in one line: agent = architecture + program.
+
+LLM agents changed both sides. The symbols that one `env` class used to hold now come from different owners, and the program around the model became a product of its own:
 
 ```text
 SYMBOL            WHERE IT ACTUALLY LIVES
@@ -90,11 +92,22 @@ Second, **a config is wiring, not identity**. A YAML file that says "run this ta
 
 ### 3. The Agent Is Not the Policy
 
-It is tempting to write Agent = policy and treat the harness as plumbing. The math says otherwise. The policy in the POMDP sense maps histories to actions, $\pi(a_t \mid o_{1:t})$. The model alone does not implement that map. The composition does:
+It is tempting to write Agent = policy and treat the harness as plumbing. That was not true for DQN, and the math says why. The policy in the POMDP sense maps histories to actions, $\pi(a_t \mid o_{1:t})$. The model alone does not implement that map. The composition does:
 
 $$\pi(a_t \mid o_{1:t}) \;=\; \text{decode}\Big(\pi_\theta\big(\cdot \mid \text{context}(o_{1:t})\big)\Big)$$
 
 The two functions around the model belong to the harness. `context` is the harness deciding what the model sees. In POMDP language it is the [belief-state](/posts/2026/07/pomdps-and-belief-states) approximator: a compaction step is a lossy belief update, and a memory file is a hand-written attempt at a sufficient statistic. `decode` is the harness turning tokens into tool calls. Training moves $\theta$. It does not move $h$, but $h$ shapes every trajectory the gradient sees.
+
+The DQN agent from section 1 has the same shape in miniature:
+
+| keras-rl `DQNAgent` part | Its job | In an LLM agent |
+| --- | --- | --- |
+| Network | The trainable function | The model $\pi_\theta$ |
+| Memory, with a frame window | Builds a state from the recent history | `context`: prompt assembly, compaction, memory files |
+| Exploration policy (ε-greedy) | Turns the network's output into an action | `decode`: tool-call parsing, retries, stop rules |
+| Processor | Translates observations, actions and rewards between agent and environment | Chat template, tool-result formatting |
+
+That gives two boundaries, and both are legitimate. Sutton and Barto note that the boundary "can be located at different places for different purposes." For the gradient, it sits at the model API: tokens are the only thing the model sets freely, so relative to the policy the harness behaves like part of the dynamics. For the experiment, it sits at the tool interface: the agent is harness plus model, and the environment starts at the world. This post uses the second, because that is the boundary that decides what a score compares. AlphaZero is the precedent: gradients flow only through the network, yet nobody calls the tree search part of the environment.
 
 This is why the same model can score very differently under two harnesses on the same coding or computer-use benchmark, and why I think of a score as:
 
@@ -224,6 +237,9 @@ None of this is new theory. It is the agent–environment boundary from chapter 
 ### References
 
 - Sutton & Barto, *Reinforcement Learning: An Introduction*, 2nd ed., §3.1 "The Agent–Environment Interface"
+- Russell & Norvig, *Artificial Intelligence: A Modern Approach*, ch. 2 "Intelligent Agents" (agent = architecture + program)
+- [keras-rl](https://github.com/keras-rl/keras-rl): `Agent` and `Processor` in `rl/core.py`, and the Atari example in `examples/dqn_atari.py`
+- Silver et al., [Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm](https://arxiv.org/abs/1712.01815) (AlphaZero)
 - Kaelbling, Littman & Cassandra, "Planning and Acting in Partially Observable Stochastic Domains", *Artificial Intelligence*, 1998
 - Hallak, Di Castro & Mannor, [Contextual Markov Decision Processes](https://arxiv.org/abs/1502.02259)
 - [Gymnasium: A Standard Interface for Reinforcement Learning Environments](https://arxiv.org/abs/2407.17032)
